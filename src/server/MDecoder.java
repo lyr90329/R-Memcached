@@ -1,4 +1,4 @@
-package com.myself.server;
+package server;
 
 import org.jboss.netty.buffer.ChannelBuffer;
 import org.jboss.netty.channel.Channel;

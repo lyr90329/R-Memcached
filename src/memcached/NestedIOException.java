@@ -1,4 +1,4 @@
-package cn.edu.buaa.act.memcachedClient;
+package memcached;
 
 import java.io.*;
 
