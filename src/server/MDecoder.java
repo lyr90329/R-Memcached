@@ -7,7 +7,7 @@ import org.jboss.netty.handler.codec.frame.FrameDecoder;
 
 import common.EMSGID;
 
-public class MDecoder extends FrameDecoder  //Decoder stream
+public class MDecoder extends FrameDecoder 
 {	 
     @Override
     protected Object decode(ChannelHandlerContext ctx, Channel channel, ChannelBuffer buffer) throws Exception {

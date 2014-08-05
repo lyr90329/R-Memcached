@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clients>
+<client>
+	<id>0000</id>
+	<host>127.0.0.1</host>
+	<client_port>30000</client_port>
+	<memcached>127.0.0.1:20000</memcached>
+</client>
+<client>
+	<id>0001</id>
+	<host>127.0.0.1</host>
+	<client_port>30001</client_port>
+	<memcached>127.0.0.1:20001</memcached>
+</client>
+<client>
+	<id>0002</id>
+	<host>127.0.0.1</host>
+	<client_port>30002</client_port>
+	<memcached>127.0.0.1:20002</memcached>
+</client>
+<client>
+	<id>0003</id>
+	<host>127.0.0.1</host>
+	<client_port>30003</client_port>
+	<memcached>127.0.0.1:20003</memcached>
+</client>
+</clients>

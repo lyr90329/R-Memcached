@@ -8,16 +8,16 @@ import org.jboss.netty.channel.MessageEvent;
 import org.jboss.netty.channel.SimpleChannelUpstreamHandler;
 
 
-public class MServerHandler extends SimpleChannelUpstreamHandler    
+public class MServerHandler extends SimpleChannelUpstreamHandler 
 {
     @Override
-    public void messageReceived(ChannelHandlerContext ctx, MessageEvent e)    //handling received message
+    public void messageReceived(ChannelHandlerContext ctx, MessageEvent e) 
     {
         if (!(e.getMessage() instanceof NetMsg)) 
         {
             return;
         }        
-   // Put this Message into queue, and then handle it.
+        memSession.getInstance().addSession(e);
     }
  
     @Override
